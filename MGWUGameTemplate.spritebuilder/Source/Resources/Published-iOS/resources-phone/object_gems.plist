@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>object_gems/Gem-Blue.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{92, 368}, {89, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {89, 119}}</string>
+			<key>sourceSize</key>
+			<string>{89, 119}</string>
+		</dict>
+		<key>object_gems/Gem-Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 126}, {119, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {119, 119}}</string>
+			<key>sourceSize</key>
+			<string>{119, 119}</string>
+		</dict>
+		<key>object_gems/Gem-Purple.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1}, {137, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {137, 119}}</string>
+			<key>sourceSize</key>
+			<string>{137, 119}</string>
+		</dict>
+		<key>object_gems/Gem-Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 368}, {89, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {89, 119}}</string>
+			<key>sourceSize</key>
+			<string>{89, 119}</string>
+		</dict>
+		<key>object_gems/Gem-Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 20}, {104, 120}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {104, 120}}</string>
+			<key>sourceSize</key>
+			<string>{104, 120}</string>
+		</dict>
+		<key>object_gems/Heart.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{330, 1}, {125, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {125, 119}}</string>
+			<key>sourceSize</key>
+			<string>{125, 119}</string>
+		</dict>
+		<key>object_gems/Pale-Diamond.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 247}, {118, 117}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {118, 117}}</string>
+			<key>sourceSize</key>
+			<string>{118, 117}</string>
+		</dict>
+		<key>object_gems/Pearl.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{122, 126}, {116, 115}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {116, 115}}</string>
+			<key>sourceSize</key>
+			<string>{116, 115}</string>
+		</dict>
+		<key>object_gems/Shadow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {188, 17}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {188, 17}}</string>
+			<key>sourceSize</key>
+			<string>{188, 17}</string>
+		</dict>
+		<key>object_gems/Sparkle-Gem.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 247}, {119, 118}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {119, 118}}</string>
+			<key>sourceSize</key>
+			<string>{119, 118}</string>
+		</dict>
+		<key>object_gems/Sparkle.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{457, 1}, {29, 29}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 29}}</string>
+			<key>sourceSize</key>
+			<string>{29, 29}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>textureFileName</key>
+		<string>object_gems.png</string>
+	</dict>
+</dict>
+</plist>

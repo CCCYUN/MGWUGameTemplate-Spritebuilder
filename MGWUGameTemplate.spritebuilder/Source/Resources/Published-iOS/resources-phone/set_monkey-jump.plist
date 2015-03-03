@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>set_monkey-jump/bg_repeatable.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {960, 320}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {960, 320}}</string>
+			<key>sourceSize</key>
+			<string>{960, 320}</string>
+		</dict>
+		<key>set_monkey-jump/cat@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 323}, {94, 76}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {94, 76}}</string>
+			<key>sourceSize</key>
+			<string>{94, 76}</string>
+		</dict>
+		<key>set_monkey-jump/enemy_croc.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 419}, {87, 65}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {87, 65}}</string>
+			<key>sourceSize</key>
+			<string>{87, 65}</string>
+		</dict>
+		<key>set_monkey-jump/enemy_snake.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{860, 409}, {64, 66}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {64, 66}}</string>
+			<key>sourceSize</key>
+			<string>{64, 66}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{500, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{788, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_arms_up.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{367, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_dead.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{511, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_left.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{284, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_left_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{655, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_left_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{223, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_left_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{644, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_left_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{212, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_right.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{428, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_right_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{439, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_right_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{356, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_right_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{140, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_jump_right_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{68, 419}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_push_left_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{727, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_push_left_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{295, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_push_right_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{79, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_push_right_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{799, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_walk_left_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{151, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_walk_left_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{583, 323}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_walk_right_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{716, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/monkey_walk_right_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{572, 409}, {70, 84}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 84}}</string>
+			<key>sourceSize</key>
+			<string>{70, 84}</string>
+		</dict>
+		<key>set_monkey-jump/rope_texture.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 1}, {5, 1}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {5, 1}}</string>
+			<key>sourceSize</key>
+			<string>{5, 1}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+		<key>textureFileName</key>
+		<string>set_monkey-jump.png</string>
+	</dict>
+</dict>
+</plist>

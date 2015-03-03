@@ -78,6 +78,18 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
+		<key>Characters</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>SpriteSheets/Global</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Sprites</key>
 		<dict/>
 		<key>ccbResources</key>
@@ -161,6 +173,20 @@
 			<integer>2</integer>
 			<key>tabletScale</key>
 			<integer>1</integer>
+		</dict>
+		<key>object_gems</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>set_monkey-jump</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>versionStr</key>

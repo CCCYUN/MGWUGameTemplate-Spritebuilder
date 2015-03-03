@@ -9,10 +9,35 @@
 #import "GameScene.h"
 
 @implementation GameScene
+{
+    //declares private variables
+    __weak CCNode* _levelNode;
+    __weak CCPhysicsNode* _physicsNode;
+    __weak CCNode* _playerNode;
+    __weak CCNode* _backgroundNode;
+}
 
 -(void) didLoadFromCCB
 {
     NSLog(@"GameScene created");
+    
+    // enabe receiving input events
+    self.userInteractionEnabled = YES;
+    
+    // load the current level
+    [self loadLevelNamed:nil];
+}
+
+-(void) loadLevelNamed:(NSString*)levelCCB
+{
+    // get the current level's player in the scene by searching for it recursively
+    _playerNode = [self getChildByName:@"player" recursively:YES];
+    NSAssert1(_playerNode, @"player node not found in level: %@", levelCCB);
+};
+
+-(void) touchBegan:(UITouch*)touch withEvent:(UIEvent*)event
+{
+    _playerNode.position = [touch locationInView:self];
 }
 
 

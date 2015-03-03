@@ -8,6 +8,10 @@
 		<integer>1</integer>
 	</dict>
 	<key>spriteFrameFiles</key>
-	<array/>
+	<array>
+		<string>Characters.plist</string>
+		<string>set_monkey-jump.plist</string>
+		<string>object_gems.plist</string>
+	</array>
 </dict>
 </plist>

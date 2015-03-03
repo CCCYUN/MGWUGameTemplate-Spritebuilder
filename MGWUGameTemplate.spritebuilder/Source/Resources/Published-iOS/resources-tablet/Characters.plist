@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Characters/Baby_Yoshi_Egg.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {1000, 1199}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1000, 1199}}</string>
+			<key>sourceSize</key>
+			<string>{1000, 1199}</string>
+		</dict>
+		<key>Characters/Character Boy.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1804}, {101, 171}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 171}}</string>
+			<key>sourceSize</key>
+			<string>{101, 171}</string>
+		</dict>
+		<key>Characters/Character Cat Girl.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{104, 1804}, {101, 171}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 171}}</string>
+			<key>sourceSize</key>
+			<string>{101, 171}</string>
+		</dict>
+		<key>Characters/Character Horn Girl.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{310, 1804}, {101, 171}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 171}}</string>
+			<key>sourceSize</key>
+			<string>{101, 171}</string>
+		</dict>
+		<key>Characters/Character Pink Girl.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{413, 1716}, {101, 171}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 171}}</string>
+			<key>sourceSize</key>
+			<string>{101, 171}</string>
+		</dict>
+		<key>Characters/Character Princess Girl.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{207, 1804}, {101, 171}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 171}}</string>
+			<key>sourceSize</key>
+			<string>{101, 171}</string>
+		</dict>
+		<key>Characters/Maroon_Baby_Yoshi_Egg.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1003, 1}, {1000, 1199}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1000, 1199}}</string>
+			<key>sourceSize</key>
+			<string>{1000, 1199}</string>
+		</dict>
+		<key>Characters/nest.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1202}, {600, 395}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {600, 395}}</string>
+			<key>sourceSize</key>
+			<string>{600, 395}</string>
+		</dict>
+		<key>Characters/wg_vine.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{398, 1202}, {512, 512}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {512, 512}}</string>
+			<key>sourceSize</key>
+			<string>{512, 512}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>Characters.png</string>
+	</dict>
+</dict>
+</plist>
