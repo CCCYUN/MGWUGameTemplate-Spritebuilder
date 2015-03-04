@@ -11,10 +11,9 @@
 @implementation GameScene
 {
     //declares private variables
-    __weak CCNode* _levelNode;
-    __weak CCPhysicsNode* _physicsNode;
-    __weak CCNode* _playerNode;
-    __weak CCNode* _backgroundNode;
+    CCPhysicsNode *_physicsNode;
+    CCNode *_catNode;
+    
 }
 
 -(void) didLoadFromCCB
@@ -23,22 +22,31 @@
     
     // enabe receiving input events
     self.userInteractionEnabled = YES;
+
+}
+
+
+// called on every touch in this scene
+- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    [self launchLaser];
+}
+
+- (void)launchLaser{
+    // loads the Penguin.ccb we have set up in Spritebuilder
+    CCNode* laser = [CCBReader load:@"Laser"];
+    // position the penguin at the bowl of the catapult
+    laser.position = ccpAdd(_catNode.position, ccp(0, 0));
     
-    // load the current level
-    [self loadLevelNamed:nil];
+    // add the penguin to the physicsNode of this scene (because it has physics enabled)
+    [_physicsNode addChild:laser];
+    
+    // manually create & apply a force to launch the penguin
+     CGPoint launchDirection = ccp(1, 0);
+     CGPoint force = ccpMult(launchDirection, 80000);
+     [laser.physicsBody applyForce:force];
 }
 
--(void) loadLevelNamed:(NSString*)levelCCB
-{
-    // get the current level's player in the scene by searching for it recursively
-    _playerNode = [self getChildByName:@"player" recursively:YES];
-    NSAssert1(_playerNode, @"player node not found in level: %@", levelCCB);
-};
 
--(void) touchBegan:(UITouch*)touch withEvent:(UIEvent*)event
-{
-    _playerNode.position = [touch locationInView:self];
-}
 
 
 -(void) exitButtonPressed

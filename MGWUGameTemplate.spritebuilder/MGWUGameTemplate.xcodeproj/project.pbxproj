@@ -12,6 +12,7 @@
 		AEFEF13F1AA5BD5C00ADED9E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF13E1AA5BD5C00ADED9E /* Cat.m */; };
 		AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1411AA5BD7300ADED9E /* Nest.m */; };
 		AEFEF1451AA5BD8500ADED9E /* Mirror.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1441AA5BD8500ADED9E /* Mirror.m */; };
+		AEFEF1481AA642F700ADED9E /* Laser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1471AA642F700ADED9E /* Laser.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -83,6 +84,8 @@
 		AEFEF1411AA5BD7300ADED9E /* Nest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Nest.m; path = Source/Nest.m; sourceTree = "<group>"; };
 		AEFEF1431AA5BD8500ADED9E /* Mirror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mirror.h; path = Source/Mirror.h; sourceTree = "<group>"; };
 		AEFEF1441AA5BD8500ADED9E /* Mirror.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mirror.m; path = Source/Mirror.m; sourceTree = "<group>"; };
+		AEFEF1461AA642F700ADED9E /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Laser.h; path = Source/Laser.h; sourceTree = "<group>"; };
+		AEFEF1471AA642F700ADED9E /* Laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Laser.m; path = Source/Laser.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				AEE8594A1A9AF92100FAB8D3 /* GameScene.h */,
 				AEFEF13D1AA5BD5C00ADED9E /* Cat.h */,
 				AEFEF13E1AA5BD5C00ADED9E /* Cat.m */,
+				AEFEF1461AA642F700ADED9E /* Laser.h */,
+				AEFEF1471AA642F700ADED9E /* Laser.m */,
 				AEFEF1401AA5BD7300ADED9E /* Nest.h */,
 				AEFEF1411AA5BD7300ADED9E /* Nest.m */,
 				AEFEF1431AA5BD8500ADED9E /* Mirror.h */,
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFEF1451AA5BD8500ADED9E /* Mirror.m in Sources */,
+				AEFEF1481AA642F700ADED9E /* Laser.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */,
