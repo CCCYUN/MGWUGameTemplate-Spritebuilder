@@ -1,25 +1,37 @@
 PM Report - Yana's Game
 
 week 0 (3/16 - 3/22/2015)
-
+Generate resources and configuration
+1. Resource generator
+2. Config file generation
+3. Level design
 
 Week 1 (3/23 - 3/29/2015)
-
-
+Add score calculation
+1. Assign different points to different recipe
+2. Calculate score after a round
+3. Leaderboard implemnetation
 
 Week 2 (3/30 - 4/5/2015)
-
-
+Another game mechanism implementation
+1. Delete tiles after they match
+2. Refill new tiles
+3. Timer implementation
 
 Week 3 (4/6 - 4/12/2015)
-
+Collection board implementation
+1. Recipe collections
+2. Trophy collections
 
 Week 4 (4/13 - 4/19/2015) 
+Shop implemenation
+1. Design shop items
+2. In-app purchase
 
-
-Week 5 (4/20 - 4/26/2015)- finishing core gameplay
+Week 5 (4/20 - 4/26/2015)
+Finishing core gameplay
 
 
 Week 6 (4/26 - 5/2/2015)
-
+UI improvement
 
