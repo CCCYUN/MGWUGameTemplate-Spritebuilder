@@ -5,8 +5,8 @@ Find arts for game
 Polish game concept
 
 Targets:
-1. Complete the basic funtion for the game
-2. Test all the functions
+1. Complete the basic funtion for the game (Checked)
+2. Test all the functions (Checked)
 
 
 Week 1 (3/23 - 3/29/2015)
