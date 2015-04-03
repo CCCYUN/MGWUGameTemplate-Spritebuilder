@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF41ACB6C5E00200C69 /* Sprites.plist */; };
+		AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */; };
 		AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8594B1A9AF92100FAB8D3 /* GameScene.m */; };
 		AEFEF13F1AA5BD5C00ADED9E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF13E1AA5BD5C00ADED9E /* Cat.m */; };
 		AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1411AA5BD7300ADED9E /* Nest.m */; };
@@ -76,6 +78,8 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AEA16CF41ACB6C5E00200C69 /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sprites.plist; sourceTree = "<group>"; };
+		AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sprites.pvr.ccz; sourceTree = "<group>"; };
 		AEE8594A1A9AF92100FAB8D3 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Source/GameScene.h; sourceTree = "<group>"; };
 		AEE8594B1A9AF92100FAB8D3 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Source/GameScene.m; sourceTree = "<group>"; };
 		AEFEF13D1AA5BD5C00ADED9E /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = Source/Cat.h; sourceTree = "<group>"; };
@@ -149,6 +153,15 @@
 				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
 			);
 			name = libs;
+			sourceTree = "<group>";
+		};
+		AEA16CF31ACB6C5E00200C69 /* Spritesheets */ = {
+			isa = PBXGroup;
+			children = (
+				AEA16CF41ACB6C5E00200C69 /* Sprites.plist */,
+				AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */,
+			);
+			path = Spritesheets;
 			sourceTree = "<group>";
 		};
 		B737893C1807616C0076A88C /* Source */ = {
@@ -244,6 +257,7 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AEA16CF31ACB6C5E00200C69 /* Spritesheets */,
 				B73789911807667A0076A88C /* Icons */,
 				B737893A180761570076A88C /* Published-iOS */,
 			);
@@ -354,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
+				AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */,
+				AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
