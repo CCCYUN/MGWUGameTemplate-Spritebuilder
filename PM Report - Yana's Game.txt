@@ -23,6 +23,7 @@ Collection board implementation
 1. Recipe collections
 2. Trophy collections
 3. Refill new tiles
+4. Finish poster by Friday
 
 Week 4 (4/13 - 4/19/2015) 
 Shop implemenation
