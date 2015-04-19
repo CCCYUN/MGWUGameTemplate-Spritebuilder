@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		AE062F161AE10330008A01FB /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE062F151AE10330008A01FB /* LevelScene.m */; };
 		AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF41ACB6C5E00200C69 /* Sprites.plist */; };
 		AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */; };
+		AEDC4CCA1ADD620C005F65D5 /* CCDragSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */; };
 		AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8594B1A9AF92100FAB8D3 /* GameScene.m */; };
 		AEFEF13F1AA5BD5C00ADED9E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF13E1AA5BD5C00ADED9E /* Cat.m */; };
 		AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1411AA5BD7300ADED9E /* Nest.m */; };
@@ -78,8 +80,12 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AE062F141AE10330008A01FB /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
+		AE062F151AE10330008A01FB /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
 		AEA16CF41ACB6C5E00200C69 /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sprites.plist; sourceTree = "<group>"; };
 		AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sprites.pvr.ccz; sourceTree = "<group>"; };
+		AEDC4CC81ADD620B005F65D5 /* CCDragSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDragSprite.h; path = Source/CCDragSprite.h; sourceTree = "<group>"; };
+		AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCDragSprite.m; path = Source/CCDragSprite.m; sourceTree = "<group>"; };
 		AEE8594A1A9AF92100FAB8D3 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Source/GameScene.h; sourceTree = "<group>"; };
 		AEE8594B1A9AF92100FAB8D3 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Source/GameScene.m; sourceTree = "<group>"; };
 		AEFEF13D1AA5BD5C00ADED9E /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = Source/Cat.h; sourceTree = "<group>"; };
@@ -179,8 +185,12 @@
 				AEFEF1431AA5BD8500ADED9E /* Mirror.h */,
 				AEFEF1441AA5BD8500ADED9E /* Mirror.m */,
 				AEE8594B1A9AF92100FAB8D3 /* GameScene.m */,
+				AEDC4CC81ADD620B005F65D5 /* CCDragSprite.h */,
+				AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				AE062F141AE10330008A01FB /* LevelScene.h */,
+				AE062F151AE10330008A01FB /* LevelScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -412,9 +422,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFEF1451AA5BD8500ADED9E /* Mirror.m in Sources */,
+				AE062F161AE10330008A01FB /* LevelScene.m in Sources */,
 				AEFEF1481AA642F700ADED9E /* Laser.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				AEDC4CCA1ADD620C005F65D5 /* CCDragSprite.m in Sources */,
 				AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */,
 				AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,

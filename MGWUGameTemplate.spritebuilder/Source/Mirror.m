@@ -17,6 +17,11 @@
         CCLOG(@"Mirror created");
     }
     
+    // enable touch events
+    self.userInteractionEnabled = YES;
+    self.multipleTouchEnabled = YES; // required for tracking multiple touches
+
+    
     return self;
 }
 

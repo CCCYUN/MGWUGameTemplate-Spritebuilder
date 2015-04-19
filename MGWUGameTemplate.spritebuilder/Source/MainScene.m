@@ -13,11 +13,9 @@
 -(void) play
 {
     CCLOG(@"play button pressed");
-    CCScene* scene = [CCBReader loadAsScene:@"GameScene"];
+    CCScene* scene = [CCBReader loadAsScene:@"LevelSelect"];
     CCTransition* transition = [CCTransition transitionFadeWithDuration:1.5];
     [[CCDirector sharedDirector] presentScene:scene withTransition:transition];
-    
-    
 
 }
 
