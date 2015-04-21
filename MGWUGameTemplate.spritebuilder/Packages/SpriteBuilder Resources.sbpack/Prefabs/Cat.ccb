@@ -47,7 +47,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>Cat</string>
+				<string></string>
 				<key>displayName</key>
 				<string>cat@4x</string>
 				<key>memberVarAssignmentName</key>
@@ -857,13 +857,112 @@
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>Cat</string>
 		<key>displayName</key>
 		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
 		<integer>1</integer>
+		<key>physicsBody</key>
+		<dict>
+			<key>affectedByGravity</key>
+			<true/>
+			<key>allowsRotation</key>
+			<true/>
+			<key>bodyShape</key>
+			<integer>0</integer>
+			<key>collisionCategories</key>
+			<array/>
+			<key>collisionMask</key>
+			<array/>
+			<key>collisionType</key>
+			<string></string>
+			<key>cornerRadius</key>
+			<real>0.0</real>
+			<key>density</key>
+			<real>0.0</real>
+			<key>dynamic</key>
+			<false/>
+			<key>elasticity</key>
+			<real>0.0</real>
+			<key>friction</key>
+			<real>0.0</real>
+			<key>points</key>
+			<array>
+				<array>
+					<real>-33.800811767578125</real>
+					<real>-62.6328125</real>
+				</array>
+				<array>
+					<real>-51.707061767578125</real>
+					<real>-26.132827758789062</real>
+				</array>
+				<array>
+					<real>-48.394561767578125</real>
+					<real>-3.3047027587890625</real>
+				</array>
+				<array>
+					<real>-11.554718017578125</real>
+					<real>-10.210952758789062</real>
+				</array>
+				<array>
+					<real>27.730438232421875</real>
+					<real>-2.6093902587890625</real>
+				</array>
+				<array>
+					<real>31.460906982421875</real>
+					<real>-16.410171508789062</real>
+				</array>
+				<array>
+					<real>13.281219482421875</real>
+					<real>-59.812515258789062</real>
+				</array>
+			</array>
+			<key>polygons</key>
+			<array>
+				<array>
+					<array>
+						<real>-11.554718017578125</real>
+						<real>-10.210952758789062</real>
+					</array>
+					<array>
+						<real>-48.394561767578125</real>
+						<real>-3.3047027587890625</real>
+					</array>
+					<array>
+						<real>-51.707061767578125</real>
+						<real>-26.132827758789062</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>-51.707061767578125</real>
+						<real>-26.132827758789062</real>
+					</array>
+					<array>
+						<real>-33.800811767578125</real>
+						<real>-62.6328125</real>
+					</array>
+					<array>
+						<real>13.281219482421875</real>
+						<real>-59.812515258789062</real>
+					</array>
+					<array>
+						<real>31.460906982421875</real>
+						<real>-16.410171508789062</real>
+					</array>
+					<array>
+						<real>27.730438232421875</real>
+						<real>-2.6093902587890625</real>
+					</array>
+					<array>
+						<real>-11.554718017578125</real>
+						<real>-10.210952758789062</real>
+					</array>
+				</array>
+			</array>
+		</dict>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -956,6 +1055,8 @@
 				<array/>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

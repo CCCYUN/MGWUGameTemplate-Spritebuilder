@@ -36,15 +36,69 @@
 }
 
 
--(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair stone:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair apple:(CCNode *)nodeA cat:(CCNode *)nodeB
 {
-    CCLOG(@"Something collided with an stone!");
-    float energy = [pair totalKineticEnergy];
+    CCLOG(@"I eat apple!");
+    //float energy = [pair totalKineticEnergy];
     // if energy is large enough, remove the seal
+    [[_physicsNode space] addPostStepBlock:^{
+        [self appleRemoved:nodeA];
+    } key:nodeA];
+    
+    CCNode* love = [CCBReader load:@"love"];
+    love.position = ccpAdd(_catNode.position, ccp(0, 0));
+    [_ccNode addChild:love];
+
+    
     
 }
 
+- (void)appleRemoved:(CCNode *)apple {
+    [apple removeFromParent];
+}
 
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair berry:(CCNode *)nodeA cat:(CCNode *)nodeB
+{
+    CCLOG(@"I eat berry!");
+    //float energy = [pair totalKineticEnergy];
+    // if energy is large enough, remove the seal
+    [[_physicsNode space] addPostStepBlock:^{
+        [self berryRemoved:nodeA];
+    } key:nodeA];
+    
+    CCNode* love = [CCBReader load:@"love"];
+    love.position = ccpAdd(_catNode.position, ccp(0, 0));
+    [_ccNode addChild:love];
+
+}
+
+- (void)berryRemoved:(CCNode *)berry {
+    [berry removeFromParent];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair grape:(CCNode *)nodeA cat:(CCNode *)nodeB
+{
+    CCLOG(@"I eat grape!");
+    //float energy = [pair totalKineticEnergy];
+    // if energy is large enough, remove the seal
+    [[_physicsNode space] addPostStepBlock:^{
+        [self grapeRemoved:nodeA];
+    } key:nodeA];
+    
+    CCNode* love = [CCBReader load:@"love"];
+    love.position = ccpAdd(_catNode.position, ccp(0, 0));
+    [_ccNode addChild:love];
+
+}
+
+- (void)grapeRemoved:(CCNode *)grape {
+    [grape removeFromParent];
+}
+
+- (void)stoneRemoved:(CCNode *)stone {
+    [stone removeFromParent];
+}
 
 
 
@@ -111,10 +165,10 @@
     }
     else {
         launchDirection.x = cos(launchAngel);
-        launchDirection.y = sin(launchAngel) ;
+        launchDirection.y = sin(launchAngel);
     }
     
-    double SPEED = 350;
+    double SPEED = 800;
     CGPoint force = ccpMult(launchDirection, SPEED);
     CCLOG(@"%@", NSStringFromCGPoint(force));
     

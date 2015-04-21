@@ -20,15 +20,17 @@ Another game mechanism implementation
 
 Week 3 (4/6 - 4/12/2015)
 Collection board implementation
-1. Recipe collections
-2. Trophy collections
-3. Refill new tiles
-4. Finish poster by Friday
+1. Recipe collections - move to week 5 
+2. Trophy collections - move to week 5
+3. Refill new tiles - done
+4. Finish poster by Friday - done
 
 Week 4 (4/13 - 4/19/2015) 
 Shop implemenation
-1. Design shop items
-2. In-app purchase
+1. Design shop items - delete this feature
+2. In-app purchase - delete this feature
+3. make transition animation - done
+4. add more levels - done
 
 Week 5 (4/20 - 4/26/2015)
 Finishing core gameplay
