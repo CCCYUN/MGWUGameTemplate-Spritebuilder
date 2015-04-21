@@ -10,18 +10,9 @@
 
 @implementation Laser
 
-- (id)init {
-    self = [super init];
-    
-    if (self) {
-        CCLOG(@"Laser created");
-    }
-    
-    return self;
-}
-
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"laser";
+    self.physicsBody.sensor = TRUE;
 }
 
 @end

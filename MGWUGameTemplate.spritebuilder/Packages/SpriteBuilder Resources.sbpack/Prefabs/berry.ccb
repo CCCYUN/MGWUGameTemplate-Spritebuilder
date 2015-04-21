@@ -47,7 +47,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Berry</string>
 				<key>displayName</key>
 				<string>berry</string>
 				<key>memberVarAssignmentName</key>
@@ -73,7 +73,7 @@
 					<key>density</key>
 					<real>1</real>
 					<key>dynamic</key>
-					<false/>
+					<true/>
 					<key>elasticity</key>
 					<real>0.30000001192092896</real>
 					<key>friction</key>
@@ -85,12 +85,12 @@
 							<real>63.849597930908203</real>
 						</array>
 						<array>
-							<real>-3.5509049892425537</real>
-							<real>239.76737976074219</real>
+							<real>21.396385192871094</real>
+							<real>227.69020080566406</real>
 						</array>
 						<array>
-							<real>205.65266418457031</real>
-							<real>237.38177490234375</real>
+							<real>179.69459533691406</real>
+							<real>228.88301086425781</real>
 						</array>
 						<array>
 							<real>221.77882385253906</real>
@@ -113,12 +113,12 @@
 								<real>66.746414184570312</real>
 							</array>
 							<array>
-								<real>205.65266418457031</real>
-								<real>237.38177490234375</real>
+								<real>179.69459533691406</real>
+								<real>228.88301086425781</real>
 							</array>
 							<array>
-								<real>-3.5509049892425537</real>
-								<real>239.76737976074219</real>
+								<real>21.396385192871094</real>
+								<real>227.69020080566406</real>
 							</array>
 							<array>
 								<real>-21.997207641601562</real>

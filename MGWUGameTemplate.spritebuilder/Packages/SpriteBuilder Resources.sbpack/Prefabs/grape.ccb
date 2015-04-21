@@ -47,7 +47,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Grape</string>
 				<key>displayName</key>
 				<string>grape</string>
 				<key>memberVarAssignmentName</key>
@@ -73,7 +73,7 @@
 					<key>density</key>
 					<real>1</real>
 					<key>dynamic</key>
-					<false/>
+					<true/>
 					<key>elasticity</key>
 					<real>0.30000001192092896</real>
 					<key>friction</key>
@@ -93,8 +93,8 @@
 							<real>278.59054565429688</real>
 						</array>
 						<array>
-							<real>181.98422241210938</real>
-							<real>315.4873046875</real>
+							<real>185.89878845214844</real>
+							<real>305.60476684570312</real>
 						</array>
 						<array>
 							<real>237.10462951660156</real>
@@ -117,8 +117,8 @@
 								<real>181.74565124511719</real>
 							</array>
 							<array>
-								<real>181.98422241210938</real>
-								<real>315.4873046875</real>
+								<real>185.89878845214844</real>
+								<real>305.60476684570312</real>
 							</array>
 							<array>
 								<real>4.4042153358459473</real>

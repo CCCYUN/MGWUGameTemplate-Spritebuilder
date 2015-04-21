@@ -9,8 +9,6 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
-		<string>set_monkey-jump.plist</string>
-		<string>object_gems.plist</string>
 		<string>title.plist</string>
 	</array>
 </dict>

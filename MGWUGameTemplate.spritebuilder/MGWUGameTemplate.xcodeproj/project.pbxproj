@@ -11,12 +11,12 @@
 		AE062F161AE10330008A01FB /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE062F151AE10330008A01FB /* LevelScene.m */; };
 		AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF41ACB6C5E00200C69 /* Sprites.plist */; };
 		AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */; };
-		AEDC4CCA1ADD620C005F65D5 /* CCDragSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */; };
+		AEE70DB71AE5BAD300D273BC /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DB61AE5BAD300D273BC /* Apple.m */; };
+		AEE70DBD1AE5BAE800D273BC /* Grape.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DBC1AE5BAE800D273BC /* Grape.m */; };
+		AEE70DC01AE5BAFA00D273BC /* Berry.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DBF1AE5BAFA00D273BC /* Berry.m */; };
+		AEE70DCB1AE603AA00D273BC /* stone.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DCA1AE603AA00D273BC /* stone.m */; };
 		AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8594B1A9AF92100FAB8D3 /* GameScene.m */; };
 		AEFEF13F1AA5BD5C00ADED9E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF13E1AA5BD5C00ADED9E /* Cat.m */; };
-		AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1411AA5BD7300ADED9E /* Nest.m */; };
-		AEFEF1451AA5BD8500ADED9E /* Mirror.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1441AA5BD8500ADED9E /* Mirror.m */; };
-		AEFEF1481AA642F700ADED9E /* Laser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF1471AA642F700ADED9E /* Laser.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -84,18 +84,18 @@
 		AE062F151AE10330008A01FB /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
 		AEA16CF41ACB6C5E00200C69 /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sprites.plist; sourceTree = "<group>"; };
 		AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sprites.pvr.ccz; sourceTree = "<group>"; };
-		AEDC4CC81ADD620B005F65D5 /* CCDragSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDragSprite.h; path = Source/CCDragSprite.h; sourceTree = "<group>"; };
-		AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCDragSprite.m; path = Source/CCDragSprite.m; sourceTree = "<group>"; };
+		AEE70DB51AE5BAD300D273BC /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = Source/Apple.h; sourceTree = "<group>"; };
+		AEE70DB61AE5BAD300D273BC /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = Source/Apple.m; sourceTree = "<group>"; };
+		AEE70DBB1AE5BAE800D273BC /* Grape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grape.h; path = Source/Grape.h; sourceTree = "<group>"; };
+		AEE70DBC1AE5BAE800D273BC /* Grape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grape.m; path = Source/Grape.m; sourceTree = "<group>"; };
+		AEE70DBE1AE5BAFA00D273BC /* Berry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Berry.h; path = Source/Berry.h; sourceTree = "<group>"; };
+		AEE70DBF1AE5BAFA00D273BC /* Berry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Berry.m; path = Source/Berry.m; sourceTree = "<group>"; };
+		AEE70DC91AE603AA00D273BC /* stone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stone.h; path = Source/stone.h; sourceTree = "<group>"; };
+		AEE70DCA1AE603AA00D273BC /* stone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = stone.m; path = Source/stone.m; sourceTree = "<group>"; };
 		AEE8594A1A9AF92100FAB8D3 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Source/GameScene.h; sourceTree = "<group>"; };
 		AEE8594B1A9AF92100FAB8D3 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Source/GameScene.m; sourceTree = "<group>"; };
 		AEFEF13D1AA5BD5C00ADED9E /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = Source/Cat.h; sourceTree = "<group>"; };
 		AEFEF13E1AA5BD5C00ADED9E /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cat.m; path = Source/Cat.m; sourceTree = "<group>"; };
-		AEFEF1401AA5BD7300ADED9E /* Nest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nest.h; path = Source/Nest.h; sourceTree = "<group>"; };
-		AEFEF1411AA5BD7300ADED9E /* Nest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Nest.m; path = Source/Nest.m; sourceTree = "<group>"; };
-		AEFEF1431AA5BD8500ADED9E /* Mirror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mirror.h; path = Source/Mirror.h; sourceTree = "<group>"; };
-		AEFEF1441AA5BD8500ADED9E /* Mirror.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mirror.m; path = Source/Mirror.m; sourceTree = "<group>"; };
-		AEFEF1461AA642F700ADED9E /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Laser.h; path = Source/Laser.h; sourceTree = "<group>"; };
-		AEFEF1471AA642F700ADED9E /* Laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Laser.m; path = Source/Laser.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -177,16 +177,16 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				AEE8594A1A9AF92100FAB8D3 /* GameScene.h */,
 				AEFEF13D1AA5BD5C00ADED9E /* Cat.h */,
+				AEE70DB51AE5BAD300D273BC /* Apple.h */,
+				AEE70DB61AE5BAD300D273BC /* Apple.m */,
+				AEE70DBB1AE5BAE800D273BC /* Grape.h */,
+				AEE70DBC1AE5BAE800D273BC /* Grape.m */,
+				AEE70DBE1AE5BAFA00D273BC /* Berry.h */,
+				AEE70DBF1AE5BAFA00D273BC /* Berry.m */,
 				AEFEF13E1AA5BD5C00ADED9E /* Cat.m */,
-				AEFEF1461AA642F700ADED9E /* Laser.h */,
-				AEFEF1471AA642F700ADED9E /* Laser.m */,
-				AEFEF1401AA5BD7300ADED9E /* Nest.h */,
-				AEFEF1411AA5BD7300ADED9E /* Nest.m */,
-				AEFEF1431AA5BD8500ADED9E /* Mirror.h */,
-				AEFEF1441AA5BD8500ADED9E /* Mirror.m */,
 				AEE8594B1A9AF92100FAB8D3 /* GameScene.m */,
-				AEDC4CC81ADD620B005F65D5 /* CCDragSprite.h */,
-				AEDC4CC91ADD620C005F65D5 /* CCDragSprite.m */,
+				AEE70DC91AE603AA00D273BC /* stone.h */,
+				AEE70DCA1AE603AA00D273BC /* stone.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				AE062F141AE10330008A01FB /* LevelScene.h */,
@@ -421,14 +421,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEF1451AA5BD8500ADED9E /* Mirror.m in Sources */,
 				AE062F161AE10330008A01FB /* LevelScene.m in Sources */,
-				AEFEF1481AA642F700ADED9E /* Laser.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				AEE70DB71AE5BAD300D273BC /* Apple.m in Sources */,
+				AEE70DCB1AE603AA00D273BC /* stone.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
-				AEDC4CCA1ADD620C005F65D5 /* CCDragSprite.m in Sources */,
+				AEE70DC01AE5BAFA00D273BC /* Berry.m in Sources */,
 				AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */,
-				AEFEF1421AA5BD7300ADED9E /* Nest.m in Sources */,
+				AEE70DBD1AE5BAE800D273BC /* Grape.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				AEFEF13F1AA5BD5C00ADED9E /* Cat.m in Sources */,
 			);
