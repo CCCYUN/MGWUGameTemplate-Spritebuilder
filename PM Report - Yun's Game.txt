@@ -35,19 +35,36 @@ Level design
 Save user data
 
 Target:
-1. finish poster by next Friday
-2. Scoring assigning should be finished
-3. Add more levels
-4. Store user data
+1. finish poster by next Friday (done)
+2. Scoring assigning should be finished (move to week 5)
+3. Add more levels (in progress)
+4. Store user data (move to week 5)
+5. Add animation and level select (done)
 
 Week 4 (4/13 - 4/19/2015) 
-Refine levels -- playtest even more often!!
-Refine control scheme
+Polish physics effect and assets
+
+Target:
+1. change the placeholder assets to real assets(done)
+2. add cat idle animation and collision detection(done)
+3. add Apple Game Center(move to week 5)
+
 
 Week 5 (4/20 - 4/26/2015)- finishing core gameplay
 Level select scene
 Determine what other polish is needed
 
+POLISH LIST:
+STONE touches APPLE/ GRAPE/ BERRY
+STONE touches GROUnD
+APPLE/ GRAPE/ BERRY touches CAT -> cat eat animation
+boards touches stone
+transition to next level
+cat idle animation
+button shrink after press
+
+
 Week 6 (4/26 - 5/2/2015)
 Work on rewinding particle effects Integrate analytics
 Screenshots Write game description for App store
+
