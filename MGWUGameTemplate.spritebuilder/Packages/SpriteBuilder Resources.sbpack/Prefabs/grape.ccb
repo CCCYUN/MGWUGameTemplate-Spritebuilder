@@ -47,47 +47,13 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>Grape</string>
+				<string></string>
 				<key>displayName</key>
 				<string>grape</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
-				<key>physicsBody</key>
-				<dict>
-					<key>affectedByGravity</key>
-					<true/>
-					<key>allowsRotation</key>
-					<true/>
-					<key>bodyShape</key>
-					<integer>1</integer>
-					<key>collisionCategories</key>
-					<array/>
-					<key>collisionMask</key>
-					<array/>
-					<key>collisionType</key>
-					<string></string>
-					<key>cornerRadius</key>
-					<real>125.43210601806641</real>
-					<key>density</key>
-					<real>0.20000000298023224</real>
-					<key>dynamic</key>
-					<true/>
-					<key>elasticity</key>
-					<real>0.30000001192092896</real>
-					<key>friction</key>
-					<real>0.30000001192092896</real>
-					<key>points</key>
-					<array>
-						<array>
-							<real>117.17930603027344</real>
-							<real>145.42234802246094</real>
-						</array>
-					</array>
-					<key>polygons</key>
-					<array/>
-				</dict>
 				<key>properties</key>
 				<array>
 					<dict>

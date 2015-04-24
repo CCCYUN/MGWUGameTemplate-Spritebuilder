@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>351</integer>
+	<integer>436</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -352,7 +352,7 @@
 								<key>displayName</key>
 								<string>groundnew</string>
 								<key>memberVarAssignmentName</key>
-								<string></string>
+								<string>_groundNode</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>physicsBody</key>
@@ -683,8 +683,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1478,7 +1476,7 @@
 			<key>offset</key>
 			<real>4.5661458969116211</real>
 			<key>position</key>
-			<real>7.9333333969116211</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

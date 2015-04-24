@@ -7,6 +7,7 @@
 //
 
 #import "GameScene.h"
+#import "Block.h"
 #import "CCDragSprite.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
 
@@ -19,10 +20,12 @@
     CCNode *_catNode;
     CCNode *_levelNode;
     CCNode *_ccNode;
+    CCNode *_groundNode;
     CCSprite *currentMirror;
+    
+    CCNode *_AppleJointNode;
+    Block *_blockNode;
 }
-
-
 
 -(void) didLoadFromCCB
 {
@@ -31,10 +34,25 @@
     
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild: level];
+    
+    NSArray *levelnodes = [level.children copy];
+    CCNode *nodeA = levelnodes[0];
+    NSArray *childnodes = [nodeA.children copy];
+    for (int i = 0; i < childnodes.count; i++) {
+        CCNode *nodeB= childnodes[i];
+        if([nodeB isKindOfClass:[Block class]])
+        {
+            CCLOG(@"I'm a block");
+            _blockNode = (Block*)nodeB;
+            [_blockNode setRefs: self];
+        }
+    }
+    
     _physicsNode.debugDraw = TRUE;
     _physicsNode.collisionDelegate = self;
-}
 
+
+}
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair apple:(CCNode *)nodeA cat:(CCNode *)nodeB
 {
@@ -48,29 +66,28 @@
     CCNode* love = [CCBReader load:@"love"];
     love.position = ccpAdd(_catNode.position, ccp(0, 0));
     [_ccNode addChild:love];
-
-    
     
 }
+
 
 - (void)appleRemoved:(CCNode *)apple {
     [apple removeFromParent];
 }
 
-
--(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair berry:(CCNode *)nodeA cat:(CCNode *)nodeB
+- (void)appleJointRemoved: (CCNode *)apple
 {
-    CCLOG(@"I eat berry!");
-    //float energy = [pair totalKineticEnergy];
-    // if energy is large enough, remove the seal
-    [[_physicsNode space] addPostStepBlock:^{
-        [self berryRemoved:nodeA];
-    } key:nodeA];
-    
-    CCNode* love = [CCBReader load:@"love"];
-    love.position = ccpAdd(_catNode.position, ccp(0, 0));
-    [_ccNode addChild:love];
+    CCLOG(@"remove apple joint node!");
+    CCNode* parent =apple.parent;
+    [parent removeChildByName: @"applejoint"];
+}
 
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair apple:(CCNode *)nodeA stone:(CCNode *)nodeB
+{
+    CCLOG(@"stone hit apple!");
+    [[_physicsNode space] addPostStepBlock:^{
+        [self appleJointRemoved:nodeA];
+    } key:nodeA];
 }
 
 - (void)berryRemoved:(CCNode *)berry {
@@ -101,28 +118,39 @@
 }
 
 
-
-
 // called on every touch in this scene
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-    // the location of touch in the scene
     CGPoint touchLocation = [touch locationInNode: _ccNode];
-    [self launchStone: touchLocation];
+    
+    CCLOG(@"block size %@", _blockNode.boundingBox.size.width);
+    
+    
+    if (CGRectContainsPoint([_blockNode boundingBox], touchLocation))
+    {
+        [_blockNode BlocktouchBegan: touch withEvent: event];
+        CCLOG(@"Gameplay touch - move block");
+    }
+    else
+    {
+        [self launchStone: touchLocation];
+        CCLOG(@"Gameplay touch - shoot");
+    }
 }
+
 
 - (void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
-    currentMirror = nil;
+    [_blockNode BlocktouchMoved: touch withEvent: event];
 }
 
 - (void)touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     
-    currentMirror = nil;
+    [_blockNode BlocktouchEnded: touch withEvent: event];
 }
 - (void)touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
-    currentMirror = nil;
+    [_blockNode BlocktouchCancelled: touch withEvent: event];
 }
 
 

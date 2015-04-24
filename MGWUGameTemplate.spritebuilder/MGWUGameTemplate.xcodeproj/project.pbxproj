@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		AE062F161AE10330008A01FB /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE062F151AE10330008A01FB /* LevelScene.m */; };
+		AE4F346D1AE89878004AEF68 /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F346C1AE89878004AEF68 /* Level1.m */; };
+		AE4F347B1AE8DA22004AEF68 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F347A1AE8DA22004AEF68 /* Block.m */; };
 		AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF41ACB6C5E00200C69 /* Sprites.plist */; };
 		AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */; };
+		AEB18A331AE71A7100CE5ADF /* love.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB18A321AE71A7100CE5ADF /* love.m */; };
 		AEE70DB71AE5BAD300D273BC /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DB61AE5BAD300D273BC /* Apple.m */; };
 		AEE70DBD1AE5BAE800D273BC /* Grape.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DBC1AE5BAE800D273BC /* Grape.m */; };
 		AEE70DC01AE5BAFA00D273BC /* Berry.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE70DBF1AE5BAFA00D273BC /* Berry.m */; };
@@ -82,8 +85,14 @@
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		AE062F141AE10330008A01FB /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
 		AE062F151AE10330008A01FB /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
+		AE4F346B1AE89878004AEF68 /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level1.h; path = Source/Level1.h; sourceTree = "<group>"; };
+		AE4F346C1AE89878004AEF68 /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level1.m; path = Source/Level1.m; sourceTree = "<group>"; };
+		AE4F34791AE8DA22004AEF68 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = Source/Block.h; sourceTree = "<group>"; };
+		AE4F347A1AE8DA22004AEF68 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = Source/Block.m; sourceTree = "<group>"; };
 		AEA16CF41ACB6C5E00200C69 /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sprites.plist; sourceTree = "<group>"; };
 		AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sprites.pvr.ccz; sourceTree = "<group>"; };
+		AEB18A311AE71A7100CE5ADF /* love.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = love.h; sourceTree = "<group>"; };
+		AEB18A321AE71A7100CE5ADF /* love.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = love.m; sourceTree = "<group>"; };
 		AEE70DB51AE5BAD300D273BC /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = Source/Apple.h; sourceTree = "<group>"; };
 		AEE70DB61AE5BAD300D273BC /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = Source/Apple.m; sourceTree = "<group>"; };
 		AEE70DBB1AE5BAE800D273BC /* Grape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grape.h; path = Source/Grape.h; sourceTree = "<group>"; };
@@ -185,12 +194,18 @@
 				AEE70DBF1AE5BAFA00D273BC /* Berry.m */,
 				AEFEF13E1AA5BD5C00ADED9E /* Cat.m */,
 				AEE8594B1A9AF92100FAB8D3 /* GameScene.m */,
+				AE4F346B1AE89878004AEF68 /* Level1.h */,
+				AE4F346C1AE89878004AEF68 /* Level1.m */,
 				AEE70DC91AE603AA00D273BC /* stone.h */,
+				AEB18A311AE71A7100CE5ADF /* love.h */,
+				AEB18A321AE71A7100CE5ADF /* love.m */,
 				AEE70DCA1AE603AA00D273BC /* stone.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				AE062F141AE10330008A01FB /* LevelScene.h */,
 				AE062F151AE10330008A01FB /* LevelScene.m */,
+				AE4F34791AE8DA22004AEF68 /* Block.h */,
+				AE4F347A1AE8DA22004AEF68 /* Block.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -425,8 +440,11 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				AEE70DB71AE5BAD300D273BC /* Apple.m in Sources */,
 				AEE70DCB1AE603AA00D273BC /* stone.m in Sources */,
+				AE4F346D1AE89878004AEF68 /* Level1.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				AEE70DC01AE5BAFA00D273BC /* Berry.m in Sources */,
+				AEB18A331AE71A7100CE5ADF /* love.m in Sources */,
+				AE4F347B1AE8DA22004AEF68 /* Block.m in Sources */,
 				AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */,
 				AEE70DBD1AE5BAE800D273BC /* Grape.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
@@ -494,7 +512,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -515,6 +533,7 @@
 				);
 				PRODUCT_NAME = MGWUGameTemplate;
 				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -527,7 +546,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -540,6 +560,7 @@
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -547,7 +568,7 @@
 				);
 				PRODUCT_NAME = MGWUGameTemplate;
 				PROVISIONING_PROFILE = "";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
