@@ -1204,9 +1204,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1377,9 +1377,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1438,8 +1438,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>156.68336486816406</real>
-							<real>234</real>
+							<real>157.68336486816406</real>
+							<real>210</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1550,9 +1550,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1725,9 +1725,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1786,8 +1786,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>228</real>
-							<real>356</real>
+							<real>244</real>
+							<real>380</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1898,9 +1898,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1959,8 +1959,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>78.999992370605469</real>
-							<real>356</real>
+							<real>70.999992370605469</real>
+							<real>380</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>

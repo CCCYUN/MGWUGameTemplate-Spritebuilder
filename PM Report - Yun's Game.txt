@@ -55,16 +55,16 @@ Level select scene
 Determine what other polish is needed
 
 POLISH LIST:
-STONE touches APPLE/ GRAPE/ BERRY
-STONE touches GROUnD
-APPLE/ GRAPE/ BERRY touches CAT -> cat eat animation
-boards touches stone
-transition to next level
-cat idle animation
-button shrink after press
+STONE touches APPLE/ GRAPE/ BERRY - check
+STONE touches GROUnD - check
+APPLE/ GRAPE/ BERRY touches CAT -> cat eat animation - check
+boards touches stone - check
+transition to next level - check
+cat idle animation - check
+button shrink after press - check
 
 
 Week 6 (4/26 - 5/2/2015)
-Work on rewinding particle effects Integrate analytics
-Screenshots Write game description for App store
+Work on rewinding particle effects Integrate analytics - check
+Screenshots Write game description for App store - check
 

@@ -24,6 +24,14 @@
 -(void) setPoints: (int) score
 {
     points = score;
+    if(points<=300)
+    {
+        [_starthree removeFromParent];
+    }
+    if(points<=150)
+    {
+        [_startwo removeFromParent];
+    }
 }
 
 -(void) setLevel: (int) levelInGame

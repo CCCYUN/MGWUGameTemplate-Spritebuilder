@@ -27,7 +27,7 @@ Collection board implementation
 
 Week 4 (4/13 - 4/19/2015) 
 Shop implemenation
-1. Design shop items - delete this feature
+1. Design shop items - delete this feature 
 2. In-app purchase - delete this feature
 3. make transition animation - done
 4. add more levels - done

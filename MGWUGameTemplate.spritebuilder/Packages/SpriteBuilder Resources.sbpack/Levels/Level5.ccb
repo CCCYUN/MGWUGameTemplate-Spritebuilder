@@ -1204,9 +1204,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1309,6 +1309,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1346,9 +1348,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1488,9 +1490,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1630,9 +1632,9 @@
 					<key>dynamic</key>
 					<false/>
 					<key>elasticity</key>
-					<real>0.30000001192092896</real>
+					<real>1</real>
 					<key>friction</key>
-					<real>0.30000001192092896</real>
+					<real>0.0</real>
 					<key>points</key>
 					<array>
 						<array>
@@ -1768,7 +1770,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>226</real>
+							<real>215</real>
 							<real>189</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1797,8 +1799,6 @@
 						<string>block/block3.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
