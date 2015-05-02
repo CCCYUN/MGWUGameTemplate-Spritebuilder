@@ -27,15 +27,17 @@ Collection board implementation
 
 Week 4 (4/13 - 4/19/2015) 
 Shop implemenation
-1. Design shop items - delete this feature 
+1. Design shop items - delete this feature
 2. In-app purchase - delete this feature
 3. make transition animation - done
 4. add more levels - done
 
 Week 5 (4/20 - 4/26/2015)
 Finishing core gameplay
-
+1. Implement hint - done
+2. Add sound and music - done
 
 Week 6 (4/26 - 5/2/2015)
 UI improvement
-
+1. Tutorial - done
+2. Animation - done
