@@ -12,6 +12,7 @@
 {
     CGPoint _originalPos;
     CCNode* _gameplay;
+    CCPhysicsNode *_physicsNode;
 }
 
 - (void)didLoadFromCCB {
@@ -19,24 +20,15 @@
     _originalPos = self.positionInPoints;
 }
 
--(void)setRefs:(CCNode *)gameplay {
+-(void)setRefs:(CCNode *)gameplay physics:(CCPhysicsNode *)physicsNode;
+{
     _gameplay = gameplay;
+    _physicsNode = physicsNode;
     CCLOG(@"Set gameplay");
-}
-
-- (BOOL) pointInChild: (CGPoint) point{
-    for(CCNode* child in self.children){
-        if([child isKindOfClass:[CCNode class]] &&
-           CGRectContainsPoint([child boundingBox], point)){
-            return YES;
-        }
-    }
-    return NO;
 }
 
 - (void) onEnter{
     [super onEnter];
-    
     CCLOG(@"ON_ENTER");
     CCLOG(@"_parent set to %@", self.parent.class);
 }
@@ -46,30 +38,22 @@
     
     CCLOG(@"TOUCH_BEGAN");
     
-    // First check to see if the touch hits one of my tiles
+    // First check to see if the touch hits board
     CGPoint touchLocationInSelf = [touch locationInNode:self];
     CCLOG(@"Touch location in self: %f, %f", touchLocationInSelf.x, touchLocationInSelf.y);
     
     // Remove from current parent (either level or bag)
-    CCLOG(@"Removing from %@", self.parent.class);
+    //CCLOG(@"Removing from %@", self.parent.class);
     CGPoint posInGameplay = [_gameplay convertToNodeSpace:[self.parent convertToWorldSpace:self.positionInPoints]];
-    [self removeFromParentAndCleanup:NO];
+    //[self removeFromParentAndCleanup:NO];
     
     // Add to Gameplay and preserve previous position
-    [_gameplay addChild :self];
+    //[_physicsNode addChild :self];
+    //[_physicsNode addChild:self];
+
     [self setPositionInPoints:posInGameplay];
     CCLOG(@"Added to %@", self.parent);
     CCLOG(@"Position before rotate: %f, %f", self.positionInPoints.x, self.positionInPoints.y);
-    //self.rotation = 90.0;
-    
-    
-    //    for(CCNode* child in self.children){
-    //        if([child isKindOfClass:[Tile class]]){
-    //            Tile *tile = (Tile*) child;
-    //            tile.rotation = 90.0;
-    //        }
-    //    }
-    
 }
 
 
@@ -96,7 +80,6 @@
 - (void)drop{
     //Do the whole drop algorithm here
     CCLOG(@"Item dropped. Checking to see if the position is valid..");
-    
     
 }
 

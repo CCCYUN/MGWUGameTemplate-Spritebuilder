@@ -9,5 +9,6 @@
 #import "CCNode.h"
 
 @interface GameScene : CCNode <CCPhysicsCollisionDelegate>
-
+@property (nonatomic, assign) int level;
+- (void) retry;
 @end

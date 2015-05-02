@@ -9,8 +9,17 @@
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		AE062F161AE10330008A01FB /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE062F151AE10330008A01FB /* LevelScene.m */; };
-		AE4F346D1AE89878004AEF68 /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F346C1AE89878004AEF68 /* Level1.m */; };
+		AE4F346D1AE89878004AEF68 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F346C1AE89878004AEF68 /* Level.m */; };
 		AE4F347B1AE8DA22004AEF68 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F347A1AE8DA22004AEF68 /* Block.m */; };
+		AE720F4E1AF44EEA00C3AC7B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE720F4D1AF44EEA00C3AC7B /* FBSDKCoreKit.framework */; };
+		AE720F501AF44EF800C3AC7B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE720F4F1AF44EF800C3AC7B /* FBSDKShareKit.framework */; };
+		AE720F521AF44F0400C3AC7B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE720F511AF44F0400C3AC7B /* FBSDKLoginKit.framework */; };
+		AE720F541AF44FBA00C3AC7B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE720F531AF44FBA00C3AC7B /* Bolts.framework */; };
+		AE720F7C1AF4F94700C3AC7B /* LostPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = AE720F7B1AF4F94700C3AC7B /* LostPopup.m */; };
+		AE720F7F1AF524DE00C3AC7B /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = AE720F7E1AF524DE00C3AC7B /* Tutorial.m */; };
+		AE999E471AF042E400D3DB9D /* WinPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = AE999E461AF042E400D3DB9D /* WinPopup.m */; };
+		AE999E6D1AF063A800D3DB9D /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE999E6C1AF063A800D3DB9D /* GroundNode.m */; };
+		AE999E901AF1A6C300D3DB9D /* LevelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE999E8F1AF1A6C300D3DB9D /* LevelNode.m */; };
 		AEA16CF61ACB6C5E00200C69 /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF41ACB6C5E00200C69 /* Sprites.plist */; };
 		AEA16CF71ACB6C5E00200C69 /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */; };
 		AEB18A331AE71A7100CE5ADF /* love.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB18A321AE71A7100CE5ADF /* love.m */; };
@@ -85,10 +94,24 @@
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		AE062F141AE10330008A01FB /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
 		AE062F151AE10330008A01FB /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
-		AE4F346B1AE89878004AEF68 /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level1.h; path = Source/Level1.h; sourceTree = "<group>"; };
-		AE4F346C1AE89878004AEF68 /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level1.m; path = Source/Level1.m; sourceTree = "<group>"; };
+		AE4F346B1AE89878004AEF68 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = Source/Level.h; sourceTree = "<group>"; };
+		AE4F346C1AE89878004AEF68 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level.m; path = Source/Level.m; sourceTree = "<group>"; };
 		AE4F34791AE8DA22004AEF68 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = Source/Block.h; sourceTree = "<group>"; };
 		AE4F347A1AE8DA22004AEF68 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = Source/Block.m; sourceTree = "<group>"; };
+		AE720F4D1AF44EEA00C3AC7B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AE720F4F1AF44EF800C3AC7B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		AE720F511AF44F0400C3AC7B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AE720F531AF44FBA00C3AC7B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AE720F7A1AF4F94700C3AC7B /* LostPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LostPopup.h; path = Source/LostPopup.h; sourceTree = "<group>"; };
+		AE720F7B1AF4F94700C3AC7B /* LostPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LostPopup.m; path = Source/LostPopup.m; sourceTree = "<group>"; };
+		AE720F7D1AF524DE00C3AC7B /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tutorial.h; path = Source/Tutorial.h; sourceTree = "<group>"; };
+		AE720F7E1AF524DE00C3AC7B /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tutorial.m; path = Source/Tutorial.m; sourceTree = "<group>"; };
+		AE999E451AF042E400D3DB9D /* WinPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinPopup.h; path = Source/WinPopup.h; sourceTree = "<group>"; };
+		AE999E461AF042E400D3DB9D /* WinPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WinPopup.m; path = Source/WinPopup.m; sourceTree = "<group>"; };
+		AE999E6B1AF063A800D3DB9D /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroundNode.h; path = Source/GroundNode.h; sourceTree = "<group>"; };
+		AE999E6C1AF063A800D3DB9D /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroundNode.m; path = Source/GroundNode.m; sourceTree = "<group>"; };
+		AE999E8E1AF1A6C300D3DB9D /* LevelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelNode.h; path = Source/LevelNode.h; sourceTree = "<group>"; };
+		AE999E8F1AF1A6C300D3DB9D /* LevelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LevelNode.m; path = Source/LevelNode.m; sourceTree = "<group>"; };
 		AEA16CF41ACB6C5E00200C69 /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sprites.plist; sourceTree = "<group>"; };
 		AEA16CF51ACB6C5E00200C69 /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sprites.pvr.ccz; sourceTree = "<group>"; };
 		AEB18A311AE71A7100CE5ADF /* love.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = love.h; sourceTree = "<group>"; };
@@ -127,7 +150,7 @@
 		B73789861807631A0076A88C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = SOURCE_ROOT; };
 		B7378992180767190076A88C /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Source/MainScene.h; sourceTree = "<group>"; };
 		B7378993180767190076A88C /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
-		B77F1B2E17B978D7009739AE /* MGWUGameTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGWUGameTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F1B2E17B978D7009739AE /* Cat In The Wood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat In The Wood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77F1B3117B978D7009739AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B77F1B3317B978D7009739AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B77F1B3517B978D7009739AE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -145,9 +168,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE720F541AF44FBA00C3AC7B /* Bolts.framework in Frameworks */,
 				8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */,
+				AE720F4E1AF44EEA00C3AC7B /* FBSDKCoreKit.framework in Frameworks */,
 				B737898A1807642B0076A88C /* libcocos2d.a in Frameworks */,
 				B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */,
+				AE720F521AF44F0400C3AC7B /* FBSDKLoginKit.framework in Frameworks */,
+				AE720F501AF44EF800C3AC7B /* FBSDKShareKit.framework in Frameworks */,
 				B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */,
 				B77F1B3617B978D7009739AE /* OpenAL.framework in Frameworks */,
 				B77F1B3817B978D7009739AE /* AudioToolbox.framework in Frameworks */,
@@ -183,29 +210,39 @@
 			isa = PBXGroup;
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
+				AE720F7A1AF4F94700C3AC7B /* LostPopup.h */,
+				AE720F7B1AF4F94700C3AC7B /* LostPopup.m */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				AEE8594A1A9AF92100FAB8D3 /* GameScene.h */,
+				AEE8594B1A9AF92100FAB8D3 /* GameScene.m */,
 				AEFEF13D1AA5BD5C00ADED9E /* Cat.h */,
+				AEFEF13E1AA5BD5C00ADED9E /* Cat.m */,
 				AEE70DB51AE5BAD300D273BC /* Apple.h */,
 				AEE70DB61AE5BAD300D273BC /* Apple.m */,
 				AEE70DBB1AE5BAE800D273BC /* Grape.h */,
 				AEE70DBC1AE5BAE800D273BC /* Grape.m */,
 				AEE70DBE1AE5BAFA00D273BC /* Berry.h */,
 				AEE70DBF1AE5BAFA00D273BC /* Berry.m */,
-				AEFEF13E1AA5BD5C00ADED9E /* Cat.m */,
-				AEE8594B1A9AF92100FAB8D3 /* GameScene.m */,
-				AE4F346B1AE89878004AEF68 /* Level1.h */,
-				AE4F346C1AE89878004AEF68 /* Level1.m */,
+				AE999E6B1AF063A800D3DB9D /* GroundNode.h */,
+				AE999E6C1AF063A800D3DB9D /* GroundNode.m */,
+				AE4F346B1AE89878004AEF68 /* Level.h */,
+				AE4F346C1AE89878004AEF68 /* Level.m */,
 				AEE70DC91AE603AA00D273BC /* stone.h */,
+				AEE70DCA1AE603AA00D273BC /* stone.m */,
 				AEB18A311AE71A7100CE5ADF /* love.h */,
 				AEB18A321AE71A7100CE5ADF /* love.m */,
-				AEE70DCA1AE603AA00D273BC /* stone.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				AE062F141AE10330008A01FB /* LevelScene.h */,
 				AE062F151AE10330008A01FB /* LevelScene.m */,
+				AE720F7D1AF524DE00C3AC7B /* Tutorial.h */,
+				AE720F7E1AF524DE00C3AC7B /* Tutorial.m */,
+				AE999E8E1AF1A6C300D3DB9D /* LevelNode.h */,
+				AE999E8F1AF1A6C300D3DB9D /* LevelNode.m */,
 				AE4F34791AE8DA22004AEF68 /* Block.h */,
 				AE4F347A1AE8DA22004AEF68 /* Block.m */,
+				AE999E451AF042E400D3DB9D /* WinPopup.h */,
+				AE999E461AF042E400D3DB9D /* WinPopup.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -256,7 +293,7 @@
 		B77F1B2F17B978D7009739AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B77F1B2E17B978D7009739AE /* MGWUGameTemplate.app */,
+				B77F1B2E17B978D7009739AE /* Cat In The Wood.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +301,10 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE720F531AF44FBA00C3AC7B /* Bolts.framework */,
+				AE720F511AF44F0400C3AC7B /* FBSDKLoginKit.framework */,
+				AE720F4F1AF44EF800C3AC7B /* FBSDKShareKit.framework */,
+				AE720F4D1AF44EEA00C3AC7B /* FBSDKCoreKit.framework */,
 				8392007918EE8E3300B6C429 /* GLKit.framework */,
 				B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */,
 				B77F1B3117B978D7009739AE /* QuartzCore.framework */,
@@ -318,7 +359,7 @@
 			);
 			name = MGWUGameTemplate;
 			productName = Example;
-			productReference = B77F1B2E17B978D7009739AE /* MGWUGameTemplate.app */;
+			productReference = B77F1B2E17B978D7009739AE /* Cat In The Wood.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +368,7 @@
 		B77F1B2617B978D7009739AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
@@ -439,12 +480,17 @@
 				AE062F161AE10330008A01FB /* LevelScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				AEE70DB71AE5BAD300D273BC /* Apple.m in Sources */,
+				AE720F7F1AF524DE00C3AC7B /* Tutorial.m in Sources */,
 				AEE70DCB1AE603AA00D273BC /* stone.m in Sources */,
-				AE4F346D1AE89878004AEF68 /* Level1.m in Sources */,
+				AE999E901AF1A6C300D3DB9D /* LevelNode.m in Sources */,
+				AE4F346D1AE89878004AEF68 /* Level.m in Sources */,
+				AE999E6D1AF063A800D3DB9D /* GroundNode.m in Sources */,
+				AE999E471AF042E400D3DB9D /* WinPopup.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				AEE70DC01AE5BAFA00D273BC /* Berry.m in Sources */,
 				AEB18A331AE71A7100CE5ADF /* love.m in Sources */,
 				AE4F347B1AE8DA22004AEF68 /* Block.m in Sources */,
+				AE720F7C1AF4F94700C3AC7B /* LostPopup.m in Sources */,
 				AEE8594C1A9AF92100FAB8D3 /* GameScene.m in Sources */,
 				AEE70DBD1AE5BAE800D273BC /* Grape.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
@@ -466,9 +512,17 @@
 		B77F1CDC17B978D8009739AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEBUG,
@@ -476,9 +530,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -487,17 +546,29 @@
 		B77F1CDD17B978D8009739AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					"NS_BLOCK_ASSERTIONS=1",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -507,12 +578,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -524,15 +599,16 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_NAME = MGWUGameTemplate;
+				PRODUCT_NAME = "Cat In The Wood";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -542,12 +618,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -559,16 +639,17 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_NAME = MGWUGameTemplate;
+				PRODUCT_NAME = "Cat In The Wood";
 				PROVISIONING_PROFILE = "";
-				VALIDATE_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Apportable. All rights reserved.
 //
 
-#import "CCNode.h"
+#import "CCScene.h"
 
 
-@interface MainScene : CCNode
+@interface MainScene : CCScene
 
 
 @end

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
-               BuildableName = "MGWUGameTemplate.app"
+               BuildableName = "Cat In The Wood.app"
                BlueprintName = "MGWUGameTemplate"
                ReferencedContainer = "container:MGWUGameTemplate.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
-            BuildableName = "MGWUGameTemplate.app"
+            BuildableName = "Cat In The Wood.app"
             BlueprintName = "MGWUGameTemplate"
             ReferencedContainer = "container:MGWUGameTemplate.xcodeproj">
          </BuildableReference>
@@ -48,11 +48,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
-            BuildableName = "MGWUGameTemplate.app"
+            BuildableName = "Cat In The Wood.app"
             BlueprintName = "MGWUGameTemplate"
             ReferencedContainer = "container:MGWUGameTemplate.xcodeproj">
          </BuildableReference>
@@ -71,11 +72,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
-            BuildableName = "MGWUGameTemplate.app"
+            BuildableName = "Cat In The Wood.app"
             BlueprintName = "MGWUGameTemplate"
             ReferencedContainer = "container:MGWUGameTemplate.xcodeproj">
          </BuildableReference>

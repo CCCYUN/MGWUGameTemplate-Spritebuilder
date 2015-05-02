@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>2</integer>
+	<integer>12</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,7 +41,7 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>1</integer>
+				<integer>11</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
@@ -59,7 +59,7 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>0.0</real>
+									<real>0.13333334028720856</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -77,7 +77,7 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>0.1666666716337204</real>
+									<real>0.26666668057441711</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -95,7 +95,7 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>0.3333333432674408</real>
+									<real>0.40000000596046448</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -113,7 +113,7 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>0.5</real>
+									<real>0.53333336114883423</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -149,7 +149,25 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>0.83333331346511841</real>
+									<real>0.80000001192092896</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>love/爱心_00009.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>0.93333333730697632</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -172,8 +190,8 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>love/爱心_00011.png</string>
-										<string>Use regular file</string>
+										<string></string>
+										<string></string>
 									</array>
 								</dict>
 							</array>
@@ -191,9 +209,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>爱心_00004</string>
-				<key>locked</key>
-				<true/>
+				<string>爱心_00008</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -230,7 +246,7 @@
 						<key>value</key>
 						<array>
 							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.0</real>
 						</array>
 					</dict>
 					<dict>
@@ -240,8 +256,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.54528689384460449</real>
+							<real>0.7966342568397522</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -249,7 +265,7 @@
 					<dict>
 						<key>baseValue</key>
 						<array>
-							<string>love/爱心_00004.png</string>
+							<string>love/爱心_00011.png</string>
 							<string>Use regular file</string>
 						</array>
 						<key>name</key>
@@ -259,7 +275,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>love/爱心_00004.png</string>
+							<string></string>
 						</array>
 					</dict>
 					<dict>
@@ -317,7 +333,7 @@
 				<key>type</key>
 				<string>StringSimple</string>
 				<key>value</key>
-				<string></string>
+				<string>love</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -340,8 +356,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -448,15 +464,15 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>length</key>
 			<real>1</real>
 			<key>name</key>
-			<string>Default Timeline</string>
+			<string>happy</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.1666666716337204</real>
+			<real>1</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

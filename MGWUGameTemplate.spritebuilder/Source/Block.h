@@ -9,7 +9,7 @@
 #import "CCNode.h"
 
 @interface Block : CCNode
-- (void) setRefs: (CCNode*) gameplay;
+- (void) setRefs: (CCNode*) gameplay physics:(CCPhysicsNode *)physicsNode;
 - (void)BlocktouchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event;
 - (void)BlocktouchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event;
 - (void)BlocktouchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event;

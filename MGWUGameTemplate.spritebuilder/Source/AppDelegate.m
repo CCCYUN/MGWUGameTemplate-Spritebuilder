@@ -54,14 +54,14 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
-    
-    
     return YES;
 }
 
 - (CCScene*) startScene
 {
-    return [CCBReader loadAsScene:@"GameScene"];
+    return [CCBReader loadAsScene:@"MainScene"];
 }
+
+
 
 @end
