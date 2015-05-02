@@ -27,7 +27,6 @@
 
 -(void) Begin
 {
-    
     CCScene *gameplayScene = [CCBReader loadAsScene:@"GameScene"];
     // Set the level by getting the gameplay from scene and setting level property
     ((GameScene *)[gameplayScene children][0]).level = 1;
